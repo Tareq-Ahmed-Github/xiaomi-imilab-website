@@ -12,7 +12,7 @@ const Dashboard = () => {
                     <ChartOne></ChartOne>
                 </div>
                 <div className='border pb-16'>
-                    <h1 className='text-2xl font-bold'>mothly sell total</h1>
+                    <h1 className='text-2xl font-bold'>monthly investment total</h1>
                     <ChartTwo></ChartTwo>
                 </div>
             </div>
