@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <h1 className='text-4xl w-full bg-black text-white py-2'>Home</h1>
-            <div className='product-details bg-slate-100 w-3/4 mx-auto mt-8 rounded-lg border flex '>
+            <div className='product-details bg-slate-100 w-3/4 mx-auto my-8 rounded-lg border md:flex '>
             <div className='image'>
                 <img src="https://i.ibb.co/b61Fhvc/kw66-500x500.jpg" alt="" />
             </div>
@@ -23,11 +23,11 @@ const Home = () => {
                     <li>Battery Capacity: 340 mAh</li>
                     <li>Display: 1.28-inches 3D TFT</li>
                 </ul>
-                <button className='text-white bg-rose-700 p-2 mt-2 rounded-2xl hover:bg-red-400'>Order Now</button>
+                <button className='text-white bg-rose-700 p-2 my-2 rounded-2xl hover:bg-red-400'>Order Now</button>
                 </div>
             </div>
             </div>
-            <div className='home-reviews mt-20 '>
+            <div className='home-reviews mb-20 '>
                 <TopReviews/>
                 <Link className='p-4 border-orange-200 border-2 rounded-3xl px-8 text-orange-400 hover:font-bold' to='/reviews'>See All</Link>
             </div>
