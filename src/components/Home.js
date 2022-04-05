@@ -1,9 +1,12 @@
 import React from 'react';
-import Reviews from './Reviews';
+import { Link } from 'react-router-dom';
+// import Reviews from './Reviews';
+import TopReviews from './TopReviews';
 
 const Home = () => {
     return (
         <div>
+            <h1 className='text-4xl w-full bg-black text-white py-2'>Home</h1>
             <div className='product-details bg-slate-100 w-3/4 mx-auto mt-8 rounded-lg border flex '>
             <div className='image'>
                 <img src="https://i.ibb.co/b61Fhvc/kw66-500x500.jpg" alt="" />
@@ -24,7 +27,8 @@ const Home = () => {
             </div>
             </div>
             <div className='home-reviews mt-20 '>
-                <Reviews/>
+                <TopReviews/>
+                <Link className='p-4 border-orange-200 border-2 rounded-3xl px-8 text-orange-400 hover:font-bold' to='/reviews'>See All</Link>
             </div>
         </div>
     );
