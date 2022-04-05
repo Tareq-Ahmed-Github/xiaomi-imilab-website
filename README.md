@@ -1,16 +1,3 @@
-## Project name: Xiaomi Imilab using react router
-
-## Live website link:
-[Xiaomi Imilab](https://xiaomi-imilab-of-tareq.netlify.app/)
-
-```bash
-In this website, I used react router for the navbar
-                 I used react recharts for making 2 charts.
-                 given reviews by doing destructuring
-                 made a 404 not found page
-                 In the end I have given 2 answers in the blog page.
-```
-
 
 # Getting Started with Create React App
 
