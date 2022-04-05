@@ -30,6 +30,9 @@ const Reviews = () => {
                     reviewAll.map(review=> <Review review={review} key={review.id}></Review>)
                 }
             </div>
+            <div>
+                <button className='text-3xl font-bold bg-red-600 p-3 mb-8 rounded-xl'>See all reviews</button>
+            </div>
         </div>
     );
 };
