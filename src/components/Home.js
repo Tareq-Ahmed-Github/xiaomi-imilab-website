@@ -12,6 +12,7 @@ const Home = () => {
                 <img src="https://i.ibb.co/b61Fhvc/kw66-500x500.jpg" alt="" />
             </div>
             <div className='details my-auto pl-4 text-left'>
+                <h1 className='name mb-6 text-6xl font-bold text-rose-700'>Xiaomi Imilab</h1>
                 <h1 className='name mb-6 text-4xl font-bold'>Xiaomi IMILAB KW66 Smart Watch</h1>
                 <div>
                 <p className='font-bold '>Price: $240</p>
