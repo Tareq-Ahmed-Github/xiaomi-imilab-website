@@ -1,4 +1,4 @@
-#Project name: Xiaomi Imilab using react router
+## Project name: Xiaomi Imilab using react router
 
 ## Live website link:
 [Xiaomi Imilab](https://xiaomi-imilab-of-tareq.netlify.app/)
